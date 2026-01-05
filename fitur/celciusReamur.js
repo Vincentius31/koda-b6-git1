@@ -3,7 +3,7 @@ export function celciusReamur(masukanCelcius){
         throw new Error("Input harus berupa Number!");
     }
     try{
-        const res = masukanCelcius + 273.15;
+        const res = masukanCelcius * 0.8;
         return res; 
     }
     catch(err){
